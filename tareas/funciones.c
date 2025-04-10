@@ -14,3 +14,23 @@ else
 
 }
 
+int verifdigitos(int a)
+{
+
+int i = 0;
+if(a==0)
+{
+i = 1;
+}
+else
+{
+while(a!=0)
+{
+a/=10;
+i++; 
+}
+}
+
+return i;
+
+}
