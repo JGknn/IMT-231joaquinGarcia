@@ -76,3 +76,32 @@ int factorial(int a)
     }
     return m;
 }
+
+int contardig(int a)
+{
+    int i = 0;
+    if(a == 0)
+    {
+        i = 1;
+    }
+    else
+    {
+        while(a!=0)
+        {
+            a/=10;
+            i++;
+        }
+    }
+    return i;
+}
+
+int invertirnum(int a)
+{
+    int r = 0;
+    while(a != 0)
+    {
+        r = (r*10) + (a%10);
+        a /= 10;
+    }
+    return r;
+}

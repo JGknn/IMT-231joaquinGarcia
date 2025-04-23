@@ -8,5 +8,7 @@ int multiplicar(int num1, int num2);
 char comparar(int a, int b);
 int multiplo3(int a);
 int factorial(int a);
+int contardig(int a);
+int invertirnum(int a);
 typedef enum { ROJO, AMARILLO, VERDE } semaforo;
 #endif
