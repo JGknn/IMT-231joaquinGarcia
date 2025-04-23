@@ -66,3 +66,13 @@ int multiplo3(int a)
 	}
 	return c;
 }
+
+int factorial(int a)
+{
+    int m = 1;
+    for (int i = 0; i < a; i++)
+    {
+        m *= (a-i);
+    }
+    return m;
+}
