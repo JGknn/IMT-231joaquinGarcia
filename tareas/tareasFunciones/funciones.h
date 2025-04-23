@@ -6,5 +6,6 @@ int sumar(int num1, int num2);
 int restar(int num1, int num2);
 int multiplicar(int num1, int num2);
 char comparar(int a, int b);
+int multiplo3(int a);
 typedef enum { ROJO, AMARILLO, VERDE } semaforo;
 #endif

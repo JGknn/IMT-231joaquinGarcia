@@ -54,3 +54,15 @@ char comparar(int a, int b)
         return '=';
     }
 }
+
+int multiplo3(int a)
+{
+	int c=0;
+
+	while((a%3)==0)
+	{
+		c++;
+		a /= 3;
+	}
+	return c;
+}
