@@ -5,5 +5,6 @@ int verifdigitos(int a);
 int sumar(int num1, int num2);
 int restar(int num1, int num2);
 int multiplicar(int num1, int num2);
+char comparar(int a, int b);
 typedef enum { ROJO, AMARILLO, VERDE } semaforo;
 #endif

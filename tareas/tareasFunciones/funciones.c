@@ -38,3 +38,19 @@ int multiplicar(int num1, int num2)
 {
 	return (num1*num2);
 }
+
+char comparar(int a, int b)
+{
+    if(a>b)
+    {
+        return '>';
+    }
+    if(a<b)
+    {
+        return '<';
+    }
+    if(a==b)
+    {
+        return '=';
+    }
+}
